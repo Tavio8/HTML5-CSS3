@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente aumenta e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/Medio.png" type="image/png">
+        <img src="imagem/Grande.png" alt="Imagem flexível Grande">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/My Demons.mp3" type="audio/mpeg">
+        <source src="midia/Born For This.mp3" type="audio/ogg">
+        <source src="midia/Imagine Dragons-Im So Sorry.mp3" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midia/Imagine Dragons-Im So Sorry.mp3">Clique aqui para abaixar o arquivo HP3</a></p>
+</body>
+</html>
