@@ -9,7 +9,11 @@
 <body>
     <h1>Meu primeiro formulario</h1>
 
-    <form action="cadastro.php" autocomplete="off">
+    <!--Get e o padrão usar para dados não sensiveis só pode enviar 3000 bites(letras)
+        Post dados sensiveis, mais de 3000 bites e envio de arquivos
+    -->
+
+    <form action="cadastro.php" method="get" autocomplete="off">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
 

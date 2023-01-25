@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/* declarações gerais */
-
 @media all {
     * {
         margin: 0px;
@@ -24,7 +22,6 @@
     }
 }
 
-/* declarações retrato */
 @media screen and (orientation: portrait) {
     body {
         background-image: url("../imagens/cev-portrait.jpg");
@@ -32,7 +29,6 @@
     }
 }
 
-/* declarações paisagem */
 @media screen and (orientation: landscape) {
     body {
         background-image: url("../imagens/cev-landscape.jpg");
